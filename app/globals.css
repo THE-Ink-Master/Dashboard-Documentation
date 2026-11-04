@@ -29,3 +29,35 @@ html, body {
   height: 100vh;
   width: 100vw;
 }
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2c2929;
+  height: fit-content;
+  border-radius: 24px;
+  box-sizing: border-box;
+  width: 20vw;
+  padding: 1vw;
+}
+
+.navBarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: fit-content;
+  height: fit-content;
+  gap: 1%;
+  padding: 1%;
+  font-size: clamp(20px, 2vh, 50px);
+}
+
+.navBarServices {
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: fit-content;
+  height: fit-content;
+}
